@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "quotes": ["error", "double"],
+        "indent": ["error", 4],
+        "no-useless-return": ["off"],
+        "arrow-parens": ["error", "always"],
+        "no-multi-spaces": ["off"]
+    }
+}
